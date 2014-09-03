@@ -9,7 +9,7 @@ Reading.readArticle = function(url, callback) {
             '<title>' + article.title + '</title>' +
             '<meta name="viewport" content="width=device-width, initial-scale=1">' +
             '<link rel="stylesheet" href="my.css" />' +
-            '</head>';
+            '</head><body><br><a href="/">Back</a><br>';
 
         data += article.content || '<h1>It failed...</h1>';
         data += '</body></html>';
